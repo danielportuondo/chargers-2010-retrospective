@@ -1,0 +1,704 @@
+{
+  "official_2010": {
+    "total_yards": 6329,
+    "yards_per_game": 395.6,
+    "yards_allowed": 4345,
+    "yards_allowed_per_game": 271.6,
+    "yard_differential": 1984,
+    "passing_yards_allowed": 3135,
+    "first_downs_allowed": 247,
+    "rivers_passing_yards": 4710,
+    "rivers_rating": 101.8,
+    "punt_return_avg_allowed": 18.9,
+    "punt_return_yards_allowed": 528
+  },
+  "n_team_seasons": 861,
+  "pythagorean": {
+    "expected_win_pct": 0.6781644680098574,
+    "expected_wins": 10.850631488157719,
+    "actual_wins": 9
+  },
+  "yardage_model": {
+    "slope": 0.002712050317081212,
+    "intercept": 0.500018754810204,
+    "r": 0.6912818193534978,
+    "r2": 0.47787055376868187,
+    "resid_sd": 0.13869342955994138,
+    "sd_expected_wins": 13.418976610491526,
+    "sd_wins_below_expected": 4.4189766104915265,
+    "sd_shortfall_rank": 24,
+    "teams_with_yard_diff_pg_100_plus": 13,
+    "those_that_missed_playoffs": [
+      {
+        "season": 2010,
+        "team": "LAC"
+      },
+      {
+        "season": 2019,
+        "team": "DAL"
+      }
+    ]
+  },
+  "simulation": {
+    "n_sims": 20000,
+    "home_edge": 2.5303502224773937,
+    "sigma": 13.484970621146726,
+    "points_per_yard_pg": 0.0999605580128889,
+    "sd_rating_points": 7.4375,
+    "sd_rating_yards": 12.482981045065488,
+    "sd_rating_st_neutral": 12.190609354286828,
+    "points_based": {
+      "p_division": 0.63785,
+      "p_playoffs": 0.73675,
+      "mean_wins": 11.5952,
+      "p_9_or_fewer_wins": 0.1132,
+      "wins_distribution": {
+        "5": 0.00035,
+        "6": 0.0019,
+        "7": 0.0087,
+        "8": 0.02825,
+        "9": 0.074,
+        "10": 0.13895,
+        "11": 0.21175,
+        "12": 0.2273,
+        "13": 0.1792,
+        "14": 0.095,
+        "15": 0.0304,
+        "16": 0.0042
+      }
+    },
+    "yardage_based": {
+      "p_division": 0.8956,
+      "p_playoffs": 0.95485,
+      "mean_wins": 13.34315,
+      "p_9_or_fewer_wins": 0.0078,
+      "wins_distribution": {
+        "7": 0.00025,
+        "8": 0.00125,
+        "9": 0.0063,
+        "10": 0.0258,
+        "11": 0.07155,
+        "12": 0.15985,
+        "13": 0.2468,
+        "14": 0.2682,
+        "15": 0.17175,
+        "16": 0.04825
+      }
+    },
+    "league_average_special_teams": {
+      "p_division": 0.87345,
+      "p_playoffs": 0.9421,
+      "mean_wins": 13.13505,
+      "p_9_or_fewer_wins": 0.01215,
+      "wins_distribution": {
+        "6": 0.0001,
+        "7": 0.00035,
+        "8": 0.002,
+        "9": 0.0097,
+        "10": 0.0333,
+        "11": 0.0864,
+        "12": 0.18385,
+        "13": 0.25895,
+        "14": 0.24455,
+        "15": 0.14375,
+        "16": 0.03705
+      }
+    }
+  },
+  "flip_scenarios": [
+    {
+      "flipped": null,
+      "winner": "KC"
+    },
+    {
+      "flipped": "Week 1 vs KC",
+      "winner": "LAC"
+    },
+    {
+      "flipped": "Week 3 vs SEA",
+      "winner": "LAC"
+    },
+    {
+      "flipped": "Week 5 vs LV",
+      "winner": "LAC"
+    },
+    {
+      "flipped": "Week 6 vs LA",
+      "winner": "LAC"
+    },
+    {
+      "flipped": "Week 7 vs NE",
+      "winner": "LAC"
+    },
+    {
+      "flipped": "Week 13 vs LV",
+      "winner": "LAC"
+    },
+    {
+      "flipped": "Week 16 vs CIN",
+      "winner": "LAC"
+    }
+  ],
+  "games": [
+    {
+      "week": 1,
+      "opp": "KC",
+      "home": false,
+      "pts": 14,
+      "opp_pts": 21,
+      "result": "L",
+      "yards": 390,
+      "opp_yards": 198,
+      "st_wpa": -0.24628043775517
+    },
+    {
+      "week": 2,
+      "opp": "JAX",
+      "home": true,
+      "pts": 38,
+      "opp_pts": 13,
+      "result": "W",
+      "yards": 477,
+      "opp_yards": 350,
+      "st_wpa": -0.09520468879653853
+    },
+    {
+      "week": 3,
+      "opp": "SEA",
+      "home": false,
+      "pts": 20,
+      "opp_pts": 27,
+      "result": "L",
+      "yards": 520,
+      "opp_yards": 272,
+      "st_wpa": -0.3505613243828455
+    },
+    {
+      "week": 4,
+      "opp": "ARI",
+      "home": true,
+      "pts": 41,
+      "opp_pts": 10,
+      "result": "W",
+      "yards": 419,
+      "opp_yards": 124,
+      "st_wpa": 0.012062809633467321
+    },
+    {
+      "week": 5,
+      "opp": "LV",
+      "home": false,
+      "pts": 27,
+      "opp_pts": 35,
+      "result": "L",
+      "yards": 506,
+      "opp_yards": 281,
+      "st_wpa": -0.49132973056493356
+    },
+    {
+      "week": 6,
+      "opp": "LA",
+      "home": false,
+      "pts": 17,
+      "opp_pts": 20,
+      "result": "L",
+      "yards": 287,
+      "opp_yards": 304,
+      "st_wpa": -0.0596311609572977
+    },
+    {
+      "week": 7,
+      "opp": "NE",
+      "home": true,
+      "pts": 20,
+      "opp_pts": 23,
+      "result": "L",
+      "yards": 363,
+      "opp_yards": 179,
+      "st_wpa": -0.38765973499241824
+    },
+    {
+      "week": 8,
+      "opp": "TEN",
+      "home": true,
+      "pts": 33,
+      "opp_pts": 25,
+      "result": "W",
+      "yards": 456,
+      "opp_yards": 370,
+      "st_wpa": 0.020202126675898595
+    },
+    {
+      "week": 9,
+      "opp": "HOU",
+      "home": false,
+      "pts": 29,
+      "opp_pts": 23,
+      "result": "W",
+      "yards": 376,
+      "opp_yards": 392,
+      "st_wpa": -0.08149346710558562
+    },
+    {
+      "week": 11,
+      "opp": "DEN",
+      "home": true,
+      "pts": 35,
+      "opp_pts": 14,
+      "result": "W",
+      "yards": 400,
+      "opp_yards": 235,
+      "st_wpa": -0.04154084756288686
+    },
+    {
+      "week": 12,
+      "opp": "IND",
+      "home": false,
+      "pts": 36,
+      "opp_pts": 14,
+      "result": "W",
+      "yards": 303,
+      "opp_yards": 303,
+      "st_wpa": 0.04901026970997347
+    },
+    {
+      "week": 13,
+      "opp": "LV",
+      "home": true,
+      "pts": 13,
+      "opp_pts": 28,
+      "result": "L",
+      "yards": 286,
+      "opp_yards": 368,
+      "st_wpa": -0.11551336437419842
+    },
+    {
+      "week": 14,
+      "opp": "KC",
+      "home": true,
+      "pts": 31,
+      "opp_pts": 0,
+      "result": "W",
+      "yards": 426,
+      "opp_yards": 67,
+      "st_wpa": -0.04673066734777702
+    },
+    {
+      "week": 15,
+      "opp": "SF",
+      "home": true,
+      "pts": 34,
+      "opp_pts": 7,
+      "result": "W",
+      "yards": 374,
+      "opp_yards": 192,
+      "st_wpa": -0.02834014215981322
+    },
+    {
+      "week": 16,
+      "opp": "CIN",
+      "home": false,
+      "pts": 20,
+      "opp_pts": 34,
+      "result": "L",
+      "yards": 313,
+      "opp_yards": 372,
+      "st_wpa": 0.23649233623105487
+    },
+    {
+      "week": 17,
+      "opp": "DEN",
+      "home": false,
+      "pts": 33,
+      "opp_pts": 28,
+      "result": "W",
+      "yards": 447,
+      "opp_yards": 338,
+      "st_wpa": -0.014711857428853205
+    }
+  ],
+  "key_plays": [
+    {
+      "week": 1,
+      "opp": "KC",
+      "qtr": 2,
+      "time": "13:32",
+      "minute": 16.466666666666665,
+      "play_id": 961,
+      "label": "Arenas 36-yd punt return",
+      "sd_wp_before": 0.5553709864616394,
+      "sd_wpa": 0.0207893252372741
+    },
+    {
+      "week": 1,
+      "opp": "KC",
+      "qtr": 2,
+      "time": "09:15",
+      "minute": 20.75,
+      "play_id": 1140,
+      "label": "Arenas 24-yd punt return",
+      "sd_wp_before": 0.5915371179580688,
+      "sd_wpa": 0.0255857110023498
+    },
+    {
+      "week": 1,
+      "opp": "KC",
+      "qtr": 2,
+      "time": "02:03",
+      "minute": 27.95,
+      "play_id": 1669,
+      "label": "McCluster 94-yd punt return TD",
+      "sd_wp_before": 0.4104410707950592,
+      "sd_wpa": -0.1705841004875796
+    },
+    {
+      "week": 3,
+      "opp": "SEA",
+      "qtr": 3,
+      "time": "15:00",
+      "minute": 30.0,
+      "play_id": 2235,
+      "label": "Washington 101-yd kickoff return TD",
+      "sd_wp_before": 0.2665644288063049,
+      "sd_wpa": -0.1073709053713239
+    },
+    {
+      "week": 3,
+      "opp": "SEA",
+      "qtr": 4,
+      "time": "06:39",
+      "minute": 53.35,
+      "play_id": 3809,
+      "label": "Washington 99-yd kickoff return TD",
+      "sd_wp_before": 0.5151212513446808,
+      "sd_wpa": -0.2916498855646943
+    },
+    {
+      "week": 5,
+      "opp": "LV",
+      "qtr": 1,
+      "time": "13:56",
+      "minute": 1.0666666666666669,
+      "play_id": 134,
+      "label": "Blocked punt \u2192 safety",
+      "sd_wp_before": 0.6551000475883484,
+      "sd_wpa": 0.0503179728984832
+    },
+    {
+      "week": 5,
+      "opp": "LV",
+      "qtr": 1,
+      "time": "10:37",
+      "minute": 4.383333333333334,
+      "play_id": 425,
+      "label": "Blocked punt \u2192 TD",
+      "sd_wp_before": 0.6296830773353577,
+      "sd_wpa": -0.1511036934529962
+    },
+    {
+      "week": 6,
+      "opp": "LA",
+      "qtr": 1,
+      "time": "12:25",
+      "minute": 2.5833333333333335,
+      "play_id": 162,
+      "label": "Amendola 42-yd punt return",
+      "sd_wp_before": 0.6777946352958679,
+      "sd_wpa": 0.0455018281936645
+    },
+    {
+      "week": 6,
+      "opp": "LA",
+      "qtr": 4,
+      "time": "08:18",
+      "minute": 51.7,
+      "play_id": 3321,
+      "label": "Kaeding 49-yd FG blocked",
+      "sd_wp_before": 0.2614170610904693,
+      "sd_wpa": -0.0963141024112701
+    },
+    {
+      "week": 7,
+      "opp": "NE",
+      "qtr": 2,
+      "time": "02:13",
+      "minute": 27.783333333333335,
+      "play_id": 1889,
+      "label": "Edelman 34-yd punt return",
+      "sd_wp_before": 0.2844257056713104,
+      "sd_wpa": -0.0712446272373199
+    },
+    {
+      "week": 7,
+      "opp": "NE",
+      "qtr": 4,
+      "time": "00:27",
+      "minute": 59.55,
+      "play_id": 4064,
+      "label": "50-yd FG hits upright (after false start)",
+      "sd_wp_before": 0.4529469907283783,
+      "sd_wpa": -0.3928040564060211
+    }
+  ],
+  "special_teams": {
+    "st_epa": -76.04974966858924,
+    "st_epa_rank_worst": 2,
+    "worst_st_epa": [
+      {
+        "season": 2000,
+        "team": "BUF",
+        "st_epa": -102.96360305984048,
+        "wins": 8,
+        "losses": 8,
+        "playoff_result": "Missed playoffs"
+      },
+      {
+        "season": 2010,
+        "team": "LAC",
+        "st_epa": -76.04974966858924,
+        "wins": 9,
+        "losses": 7,
+        "playoff_result": "Missed playoffs"
+      },
+      {
+        "season": 2013,
+        "team": "WAS",
+        "st_epa": -74.66374780182235,
+        "wins": 3,
+        "losses": 13,
+        "playoff_result": "Missed playoffs"
+      },
+      {
+        "season": 2020,
+        "team": "MIN",
+        "st_epa": -68.33323237396768,
+        "wins": 7,
+        "losses": 9,
+        "playoff_result": "Missed playoffs"
+      },
+      {
+        "season": 2020,
+        "team": "LAC",
+        "st_epa": -68.33083841250271,
+        "wins": 7,
+        "losses": 9,
+        "playoff_result": "Missed playoffs"
+      },
+      {
+        "season": 2009,
+        "team": "GB",
+        "st_epa": -66.73125510874709,
+        "wins": 11,
+        "losses": 5,
+        "playoff_result": "Lost Wild Card"
+      },
+      {
+        "season": 2025,
+        "team": "NO",
+        "st_epa": -65.26496340205898,
+        "wins": 6,
+        "losses": 11,
+        "playoff_result": "Missed playoffs"
+      },
+      {
+        "season": 2002,
+        "team": "WAS",
+        "st_epa": -63.28323187884508,
+        "wins": 7,
+        "losses": 9,
+        "playoff_result": "Missed playoffs"
+      },
+      {
+        "season": 1999,
+        "team": "CIN",
+        "st_epa": -62.736354531569695,
+        "wins": 4,
+        "losses": 12,
+        "playoff_result": "Missed playoffs"
+      },
+      {
+        "season": 2017,
+        "team": "DEN",
+        "st_epa": -60.01789964359655,
+        "wins": 5,
+        "losses": 11,
+        "playoff_result": "Missed playoffs"
+      }
+    ],
+    "punt_ret_avg_allowed_pbp": 15.085714285714284,
+    "punt_ret_avg_rank_worst": 1,
+    "return_tds_allowed": 5,
+    "punts_blocked_against": 4,
+    "points_allowed_on_returns_and_blocks": 39,
+    "st_share_of_plays": 0.17008117510630075
+  },
+  "rankings": {
+    "yard_diff_rank": 2,
+    "top_yard_diff": [
+      {
+        "season": 2001,
+        "team": "LA",
+        "yard_diff": 2224.0,
+        "wins": 14,
+        "losses": 2,
+        "playoff_result": "Lost Super Bowl"
+      },
+      {
+        "season": 2010,
+        "team": "LAC",
+        "yard_diff": 1998.0,
+        "wins": 9,
+        "losses": 7,
+        "playoff_result": "Missed playoffs"
+      },
+      {
+        "season": 2007,
+        "team": "NE",
+        "yard_diff": 1988.0,
+        "wins": 16,
+        "losses": 0,
+        "playoff_result": "Lost Super Bowl"
+      },
+      {
+        "season": 2004,
+        "team": "DEN",
+        "yard_diff": 1880.0,
+        "wins": 10,
+        "losses": 6,
+        "playoff_result": "Lost Wild Card"
+      },
+      {
+        "season": 2021,
+        "team": "BUF",
+        "yard_diff": 1863.0,
+        "wins": 11,
+        "losses": 6,
+        "playoff_result": "Lost Divisional"
+      }
+    ],
+    "ypp_diff_rank_2010": 1,
+    "first5_yard_diff_rank": 1,
+    "top_first5": [
+      {
+        "season": 2010,
+        "team": "LAC",
+        "first5_yard_diff": 1087.0,
+        "first5_wins": 2
+      },
+      {
+        "season": 2009,
+        "team": "NYG",
+        "first5_yard_diff": 1038.0,
+        "first5_wins": 5
+      },
+      {
+        "season": 2022,
+        "team": "BUF",
+        "first5_yard_diff": 907.0,
+        "first5_wins": 4
+      },
+      {
+        "season": 2007,
+        "team": "NE",
+        "first5_yard_diff": 889.0,
+        "first5_wins": 5
+      },
+      {
+        "season": 2019,
+        "team": "SF",
+        "first5_yard_diff": 864.0,
+        "first5_wins": 5
+      }
+    ],
+    "six_of_first_seven_outgained_125": [
+      {
+        "season": 2010,
+        "team": "LAC",
+        "first7_wins": 2
+      },
+      {
+        "season": 2019,
+        "team": "NE",
+        "first7_wins": 7
+      },
+      {
+        "season": 2019,
+        "team": "SF",
+        "first7_wins": 7
+      }
+    ],
+    "number_one_offense_and_defense_since_1999": [
+      {
+        "season": 2010,
+        "team": "LAC"
+      }
+    ]
+  },
+  "rivers": {
+    "streaks_3plus_since_1999": [
+      {
+        "qb": "Peyton Manning",
+        "start": 2004,
+        "end": 2006
+      },
+      {
+        "qb": "Philip Rivers",
+        "start": 2008,
+        "end": 2010
+      },
+      {
+        "qb": "Aaron Rodgers",
+        "start": 2009,
+        "end": 2014
+      },
+      {
+        "qb": "Peyton Manning",
+        "start": 2012,
+        "end": 2014
+      },
+      {
+        "qb": "Tom Brady",
+        "start": 2015,
+        "end": 2017
+      },
+      {
+        "qb": "Drew Brees",
+        "start": 2015,
+        "end": 2020
+      },
+      {
+        "qb": "Patrick Mahomes",
+        "start": 2018,
+        "end": 2020
+      },
+      {
+        "qb": "Kirk Cousins",
+        "start": 2019,
+        "end": 2021
+      },
+      {
+        "qb": "Russell Wilson",
+        "start": 2018,
+        "end": 2021
+      },
+      {
+        "qb": "Tua Tagovailoa",
+        "start": 2022,
+        "end": 2024
+      },
+      {
+        "qb": "Lamar Jackson",
+        "start": 2023,
+        "end": 2025
+      }
+    ],
+    "pre_1999_streaks": [
+      {
+        "qb": "Steve Young",
+        "start": 1991,
+        "end": 1994,
+        "source": "Pro Football Hall of Fame 100-point QB list"
+      }
+    ]
+  }
+}
