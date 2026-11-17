@@ -4,6 +4,8 @@ A statistical retrospective of the 2010 San Diego Chargers: the NFL's No. 1 tota
 defense, a +1,984-yard differential, and a 9–7 record that missed the playoffs, mostly because of
 historically bad special teams.
 
+**Live dashboard:** https://chargers-2010-retrospective.streamlit.app/
+
 ## Headline findings
 
 - **The only team since 1999 ranked No. 1 in both total offense and total defense.** (In the Super Bowl
